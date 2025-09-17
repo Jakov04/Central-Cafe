@@ -1,0 +1,244 @@
+@font-face {
+    font-family: ITC;
+    src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Book.otf);
+}
+@font-face {
+    font-family: ITC;
+    src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: League;
+    src: url(/fonts/LeagueSpartan-Bold.ttf);
+}
+@font-face {
+    font-family: Cerebri;
+    src: url(/fonts/Cerebri\ Sans\ Heavy.ttf);
+}
+@font-face {
+    font-family: TCM;
+    src: url(/fonts/TCM_____.TTF);
+}
+@font-face {
+    font-family: Gill;
+    src: url(/fonts/GIL_____.TTF);
+}
+body{
+    background-color: #fffffb;
+    font-family: Gill;
+}
+h1{
+    font-family: Cerebri !important;
+}
+nav{
+    border-bottom: 2px solid black;
+}
+.navbar .navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: .5s;
+
+}
+
+.navbar{
+    background-color: #aea781 !important;
+    padding: 0;
+}
+.nav-link{
+    color: white !important;
+
+}
+.nav-link:hover{
+    color: #fff5bd!important;
+}
+.nav-link.active:hover{
+    color: #000000!important;
+}
+.active{
+    color: #000000!important;
+}
+
+footer {
+ background-color: #090907; 
+ color: #ffffff; 
+ padding: 60px 20px;
+}
+footer a {
+ color: #fff5bd; 
+ text-decoration: none;
+ margin: 5px 0;
+ display: block;
+}
+footer a:hover {
+ text-decoration: none;
+}
+
+footer h1{
+    font-family: ITC !important;
+}
+footer h1, footer h4 {
+ color: #fff5bd; 
+ margin-bottom: 15px;
+}
+.footer-container {
+ max-width: 1200px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.footer-left {
+ text-align: center;
+ margin-bottom: 30px;
+}
+.footer-columns {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
+ max-width: 1200px;
+ margin-bottom: 30px;
+}
+.footer-column {
+ flex: 1;
+ margin: 10px;
+ min-width: 200px;
+
+}
+.footer-column h4 {
+ border-bottom: 1px solid #fff5bd;
+ padding-bottom: 10px;
+ margin-bottom: 15px;
+}
+.footer-column p {
+ margin-bottom: 10px;
+}
+.footer-social {
+ text-align: center;
+}
+.social-links {
+ display: flex;
+ gap: 15px;
+ justify-content: center;
+}
+.social-links a {
+ background-color: #fff5bd;
+ padding: 10px;
+ border-radius: 50%;
+ text-align: center;
+ width: 40px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #000000;
+ font-weight: bold;
+}
+.social-links a:hover {
+ background-color: #aea781;
+ color: white;
+
+}
+.payment-options img {
+    width: 90px;
+    margin-top: 10px;
+}
+.footer-contact p{
+    color:white;
+}
+.footer-contact p:hover{
+    color:#fff5bd;
+    text-decoration: underline;
+}
+
+.copyright {
+    background-color: #f9f9f5 !important; 
+    text-align: center; 
+    padding-top: 20px ; 
+   
+}
+.copyright a {
+    color: black; 
+    text-decoration: none !important; 
+}
+.copyright a:hover {
+    text-decoration: underline !important; 
+}
+.copyright-content {
+    color: black; 
+    font-size: 1rem; 
+}
+.hero-section {
+    background-color: #aea7811c; 
+    padding: 60px 0;
+}
+.hero-section h5{
+    color: #615d48;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+.pozadina{
+    height:300px;
+}
+.pozadina img{
+    height: 300px;
+}
+
+.btn-success{
+    background-color: #fff5bd;
+    color: #000000;
+    border: #000000;
+}
+.btn-success:hover{
+    background-color: #aea781;
+    color: white;
+    border: #fff5bd;
+}
+
+.card{
+background-color: #aea7811c;
+}
+.carousel {
+    margin-top: 20px;
+}
+.carousel-inner img {
+    object-fit: cover;
+    height: 300px; 
+    border-radius: 15px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+.carousel-item img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;}
+.carousel-item.active img {
+    opacity: 1;
+}
+.map-container {
+    width: 100%;
+    height: 500px;
+ }
+ 
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+.photo-gallery .item {
+    padding-bottom:30px;
+}
+.dropdown-item.active{
+    background-color: #aea781;
+}
+.mapa a{
+    color:#000000!important;
+    text-decoration: none;
+}
+.mapa a:hover{
+    color:#aea781!important;
+    text-decoration: none;
+}
+
